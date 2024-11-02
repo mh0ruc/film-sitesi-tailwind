@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.imgcontainer{
+    flex: 1 1 auto;
+
+}
+.card{
+    height:250px ;
+   
+    transition:all 1s;
+}
+.card:hover{
+    height: 300px;
+}
